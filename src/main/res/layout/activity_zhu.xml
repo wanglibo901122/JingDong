@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bawei.jingdongdemo1.reg.view.view.ZhuActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#ed4255"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:background="#ed4255"
+            android:id="@+id/imgbtn"
+            android:src="@drawable/leftjiantou"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:background="#ed4255"
+            android:layout_height="30dp"
+            android:textSize="25dp"
+            android:gravity="center_horizontal"
+            android:layout_marginRight="50dp"
+            android:textColor="#fafafa"
+            android:text="注册页面"/>
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:id="@+id/name"
+        android:inputType="number"
+        android:lines="1"
+        android:hint="请输入账号"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:id="@+id/pass"
+        android:inputType="numberPassword"
+        android:lines="1"
+        android:hint="请输入密码"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/regbtn"
+            android:textColor="#1900ff"
+            android:text="REG"/>
+
+</LinearLayout>
